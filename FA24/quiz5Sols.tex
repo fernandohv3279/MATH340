@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage[a4paper, total={6in, 27cm}]{geometry}
+\usepackage{amsmath}
+
+\begin{document}
+
+\title{MATH 340}
+\author{Answers to quiz 5}
+\date{\today}
+\maketitle
+
+\begin{enumerate}
+
+\item
+
+\begin{enumerate}
+	\item $\lambda_1=-3,\lambda_2=-1,\lambda_3=1$.
+	\item $\xi_{\lambda_1}=\begin{bmatrix} 1\\ -1\\ 0\\ \end{bmatrix}$, $\xi_{\lambda_2}=\begin{bmatrix} 1\\ 1\\ 0\\ \end{bmatrix}$, $\xi_{\lambda_3}=\begin{bmatrix} 0\\ 0\\ 1\\ \end{bmatrix}$.
+	\item $x(t)=c_1\begin{bmatrix} 1\\-1\\0\\ \end{bmatrix}e^{-3t}+c_2\begin{bmatrix}1\\1\\0\\\end{bmatrix}e^{-t}+c_3\begin{bmatrix}0\\0\\1\\ \end{bmatrix}e^{t}$.
+\end{enumerate}
+
+\item
+
+\begin{enumerate}
+	\item $\lambda_1=\lambda_2=2$.
+	\item $\xi=\begin{bmatrix}1\\1\\\end{bmatrix}$ (eigenvector), $\eta=\begin{bmatrix}1\\0\end{bmatrix}$ (generalized eigenvector).
+	\item General solution: $x(t)=c_1\begin{bmatrix}1\\1\end{bmatrix}e^{2t}+c_2\left(\begin{bmatrix}1\\1\end{bmatrix}te^{2t}+\begin{bmatrix}1\\0\end{bmatrix}e^{2t}\right)$.
+
+	Particular solution: $x_p(t)=\begin{bmatrix}1\\1\end{bmatrix}e^{2t}+\begin{bmatrix}1\\1\end{bmatrix}te^{2t}+\begin{bmatrix}1\\0\end{bmatrix}e^{2t}$.
+\end{enumerate}
+
+\item Consider the following system of equations $x'=Ax$ where $
+	A=\begin{pmatrix}
+		 1 & -1\\
+		 1 & 1\\
+	\end{pmatrix}
+$.
+
+\begin{enumerate}
+	\item $\lambda_1=1-i,\lambda_2=1+i$.
+	\item $\xi_{\lambda_1}=\begin{bmatrix}-i\\1\end{bmatrix}$, $\xi_{\lambda_2}=\begin{bmatrix}i\\1\end{bmatrix}$.
+	\item $x(t)=c_1e^t\left(\begin{bmatrix}0\\1\end{bmatrix}\cos(t)-\begin{bmatrix}1\\0\end{bmatrix}\sin(t)\right)+c_2e^t\left(\begin{bmatrix}0\\1\end{bmatrix}\sin(t)+\begin{bmatrix}1\\0\end{bmatrix}\cos(t)\right)$.
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}

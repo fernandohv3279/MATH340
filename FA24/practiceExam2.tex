@@ -1,0 +1,93 @@
+\documentclass{article}
+\usepackage[a4paper, total={6in, 27cm}]{geometry}
+\usepackage{amsmath}
+
+\begin{document}
+
+\title{MATH 340}
+\author{Practice for exam 2}
+\date{\today}
+\maketitle
+
+\begin{itemize}
+
+\item Do the old exam 2.
+
+\item Consider the 2nd-order ODE
+    \[u''+\frac{1}{2}u'+\frac{1}{2}u = 3\sin(2t), \hspace{.15in} u(0)=1,
+    \hspace{.1in} u'(0)=-2.\]
+
+\begin{enumerate}
+	\item Convert the problem to a 1st-order ODE system with a
+		correspoinding initial condition.
+	\item Is the new ODE system linear? Is it homogeneous?
+	\item If the new ODE system is in the form $x'(t)=Ax+b(t)$, find the
+		eigenvalues of matrix A.
+\end{enumerate}
+
+\item Select True or False
+\begin{enumerate}
+	\item (T)  (F) If an eigenvalues has algebraic multiplicity 1 then it has 1 eigenvector.
+	\item (T)  (F) If an eigenvalues has algebraic multiplicity 2 then it has 2 eigenvectors.
+	\item (T)  (F) If an eigenvalues has algebraic multiplicity 3 then it has 3 eigenvectors.
+	\item (T)  (F) For an n-dimensional ODE system $x'(t)=Ax$, $x(t)=\exp(tA)$ is a solution.
+	\item (T)  (F) For an n-dimensional ODE system $x'(t)=Ax$, if $u$ is a
+		constant vector, then $x(t)=\exp(tA)u$ is a solution of the ODE
+		system.
+\end{enumerate}
+
+\item Consider the ODE system $x'(t)=Ax(t)$, where $A=\begin{pmatrix}
+		-2 &  1 & 0\\
+		 0 & -2 & 0\\
+		 0 &  0 & 1\\
+	\end{pmatrix}$.
+
+\begin{enumerate}
+	\item Find the single eigenvalue, an associated eigenvector, and then a solution for the ODE system.
+	\item Find the double eigenvalue, an associated eigenvector, and then a solution for the ODE system.
+	\item For the double eigenvalue, find a generalized eigenvector, then use it to get another solution for the ODE system.
+\end{enumerate}
+
+\item Consider the ODE system $x'=Ax$ with $
+	A=\begin{pmatrix}
+		1 & -1\\
+		1 &  1\\
+	\end{pmatrix}
+$.
+
+\begin{enumerate}
+	\item Find the eigenvalues and eigenvectors of A.
+	\item Write down the real-valued general solution for the ODE system.
+\end{enumerate}
+
+\item Consider the ODE system $x'=Ax$ where $
+	A=\begin{pmatrix}
+		 1 & 9\\
+		 1 & 1\\
+	\end{pmatrix}
+$.
+
+\begin{enumerate}
+	\item Find the eigenvalues and eigenvectors of A.
+	\item Write down the general solution of the ODE system.
+	\item Find the particular solution $x_p(t)$ satisfying the initial
+		condition $x_p(0)=\begin{bmatrix} 6\\ 0 \\ \end{bmatrix}$
+\end{enumerate}
+
+\item Consider the ODE system $x'=Ax$ where $
+	A=\begin{pmatrix}
+		 3 & -1\\
+		 1 &  1\\
+	\end{pmatrix}
+$.
+
+\begin{enumerate}
+	\item Find the eigenvalues of A and the algebraic multiplicities.
+	\item Find the associated eigenvector(s) and (if necessary) generalized
+		eigenvectors.
+	\item Write down the general solution of the ODE system.
+\end{enumerate}
+
+\end{itemize}
+
+\end{document}

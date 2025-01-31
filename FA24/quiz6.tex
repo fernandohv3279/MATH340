@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage[a4paper, total={6in, 27cm}]{geometry}
+\usepackage{amsmath}
+
+\begin{document}
+
+\title{MATH 340}
+\author{Quiz 6}
+\date{\today}
+\maketitle
+
+\textbf{Note:} All solutions to ODE systems must be real (i.e. your answers
+\textbf{shouldn't} have $i$ in them. In particular, a term of the form
+$e^{i\theta}$ \textbf{shouldn't} appear anywhere).
+
+\begin{enumerate}
+
+\item Consider the ODE system $x'=Ax$ where $
+	A=\begin{pmatrix}
+		 0 &  0 & 0\\
+		 0 &  0 & 2\\
+		 0 &  0 & 0\\
+	\end{pmatrix}
+$.
+
+\begin{enumerate}
+	\item Find the eigenvalues and eigenvectors (and generalized eigenvectors if necessary) of A.
+	\item Write down the general solution of the ODE system.
+\end{enumerate}
+
+\item Consider the ODE system $x'=Ax$ where $
+	A=\begin{pmatrix}
+		  2 &   1 &  1\\
+		 -4 &  -3 & -4\\
+		 -5 &   0 &  4\\
+	\end{pmatrix}
+$.
+
+\begin{enumerate}
+	\item Find the eigenvalues and eigenvectors (and generalized eigenvectors if necessary) of A.
+	\item Write down the general solution of the ODE system.
+\end{enumerate}
+
+\item Find the solution to the initial value problem:
+\[
+\mathbf{x}'=\begin{bmatrix}2 & 0 & 0 \\
+		0  & 3 & 4 \\
+	0 & -1 & -2\end{bmatrix}
+\mathbf{x},\hspace{.15in} \mathbf{x}(0) =
+\begin{bmatrix}2 \\ 3 \\ 0\end{bmatrix}.
+\]
+    \item Consider the 2nd-order ODE $$u''+\frac{1}{2}u'+\frac{1}{2}u = 3\sin(2t), \hspace{.15in} u(0)=1, \hspace{.1in} u'(0)=-2.$$  Convert the problem to a 1st-order ODE system of the form $\mathbf{x}'=A\mathbf{x}+\mathbf{b}$ with an initial condition $\mathbf{x}(0)$.
+\end{enumerate}
+
+\end{document}
