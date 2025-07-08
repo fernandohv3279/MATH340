@@ -1,0 +1,30 @@
+\documentclass{exam}
+% \usepackage[a4paper, total={6in, 27cm}]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\newenvironment{amatrix}[1]{%
+  \left(\begin{array}{@{}*{#1}{c}|c@{}}
+}{%
+  \end{array}\right)
+}
+
+
+\begin{document}
+
+\title{MATH 340}
+\author{Quiz 10}
+\date{March 14, 2025}
+\maketitle
+
+(20 points) A predator-prey system is modeled by:
+\[
+\begin{cases}
+  x'(t)=x(1-0.75y) \\
+  y'(t)=0.2y(x-4)
+\end{cases}
+\]
+
+Find the equilibrium points and classify them.
+
+\end{document}
